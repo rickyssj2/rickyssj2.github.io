@@ -1,0 +1,199 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Quicksand,sans-serif;
+}
+
+div.container {
+  background-color: #2a2929;
+}
+
+/* Navigation Bar Styles */
+nav ul {
+  z-index: 200000;
+  width: 100%;
+  background-color: #3b3b3b;
+  position: fixed;
+}
+
+nav ul span {
+  display: inline-block;
+  float: right;
+  height: 80px;
+  width: 50%;
+  background-color: #1f1f1f;
+}
+
+nav ul li.navs {
+  position: relative;
+  display: inline-block;
+  height: 80px;
+}
+
+nav ul li.navs a{
+  text-align: center;
+  display: block;
+  width: 125px;
+  text-decoration: none;
+  color: #3b3b3b;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+nav ul span:hover{
+  cursor: pointer;
+}
+
+nav ul li.navs:hover a{
+  background-color: #3b3b3b;
+  color: #1f1f1f;
+}
+
+nav ul li#ap{
+  width: 50%;
+  background-color: #3b3b3b;
+  position: relative;
+  display: inline-block;
+  height: 80px;
+}
+
+nav ul li#ap a{
+  text-decoration: none;
+}
+
+nav ul li a h1 {
+  font-size: 3.5em;
+  color: #1f1f1f;
+  line-height: 80px;
+  text-align: center;
+}
+
+/* =================================================================== */
+
+/* content */
+
+div.content1 {
+  padding-top: 150px;
+  height: 700px;
+  text-align: center;
+}
+
+div.content1 p{
+  font-size: 7em;
+  color: #333;
+}
+
+/* ==================================================================== */
+
+/* content 2 */
+
+div.content2 {
+  width: auto;
+  text-align: center;
+}
+
+div.content2 p {
+  font-size: 5em;
+  color: #333;
+}
+
+/* ==================================================================== */
+
+/* images */
+
+div.images {
+  text-align: center;
+  position: relative;
+  margin: 80px auto 200px auto;
+}
+
+div.images img.phone {
+  width: 125px;
+  height: 225px;
+  margin-right: -5%;
+  z-index: 10;
+  position: relative;
+
+}
+
+div.images img.tablet {
+  width: 165px;
+  height: 250px;
+  z-index: 1;
+  position: relative;
+}
+
+div.images img.monitor {
+  width: 665px;
+  height: 420px;
+  margin-right: -100px;
+  z-index: 0;
+  position: relative;
+}
+
+/* ============================================================== */
+
+/* content 3 */
+
+div.content3 {
+  display: inline;
+  width: auto;
+  text-align: center;
+}
+
+div.content3 p {
+  font-size: 5em;
+  color: #333;
+}
+
+/* ==================================================================== */
+
+/* portfolio */
+
+div.portfolio {
+  margin :40px auto;
+}
+
+div.portfolio span {
+  width: 300px;
+  margin: 0 auto 200px auto;
+  text-align: center;
+}
+
+div.portfolio h1 {
+  font-size: 4em;
+  color: #aeadad;
+}
+
+div.portfolio p {
+  font-size: 3em;
+  color: #3b3b3b;
+}
+
+/* images */
+
+div.portfolio img.port {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 60px auto 60px auto;
+
+}
+
+/* ==================================================================== */
+
+div.footer{
+  clear: both;
+  background-color: #232323;
+  width: 100%;
+  height: 200px;
+}
+
+div.footer p{
+  font-size: 1.5em;
+  color:#3b3b3b;
+  text-align: center;
+  line-height: 200px;
+}
+
+/* ==================================================================== */
