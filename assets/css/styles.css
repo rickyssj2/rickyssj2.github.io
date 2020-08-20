@@ -8,7 +8,8 @@
 }
 
 .carousel-caption {
-	bottom: 35% !important;
+	positiion:absolute;
+	top: 35% !important;
 }
 
 .carousel-caption h5{
